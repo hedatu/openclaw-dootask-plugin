@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.openclaw.dootask</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/tmt8/.nvm/versions/node/v24.13.1/bin/node</string>
+        <string>/Users/tmt8/openclaw-dootask-plugin/dootask-plugin.js</string>
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/tmt8/openclaw-dootask-plugin</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/tmt8/.nvm/versions/node/v24.13.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>NODE_ENV</key>
+        <string>production</string>
+        <key>HOME</key>
+        <string>/Users/tmt8</string>
+    </dict>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/tmt8/openclaw-dootask-plugin/logs/stdout.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/tmt8/openclaw-dootask-plugin/logs/stderr.log</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+        <key>Crashed</key>
+        <true/>
+    </dict>
+    
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+</dict>
+</plist>

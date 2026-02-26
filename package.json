@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-dootask-plugin",
+  "version": "1.0.0",
+  "description": "OpenClaw DooTask Plugin - 基于 Telegram 插件模式",
+  "main": "dootask-adapter.js",
+  "scripts": {
+    "start": "node dootask-adapter.js",
+    "dev": "node dootask-adapter.js"
+  },
+  "keywords": [
+    "openclaw",
+    "dootask",
+    "plugin",
+    "webhook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
