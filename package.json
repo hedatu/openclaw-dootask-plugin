@@ -1,7 +1,7 @@
 {
   "name": "openclaw-dootask-plugin",
   "version": "1.0.0",
-  "description": "OpenClaw DooTask Plugin - 基于 Telegram 插件模式",
+  "description": "Bridge DooTask Webhook messages to OpenClaw and send AI replies back to DooTask", 
   "main": "dootask-adapter.js",
   "scripts": {
     "start": "node dootask-adapter.js",
